@@ -4,7 +4,7 @@ const performance = require("perf_hooks").performance;
 
 /** DATA LOAD */
 const data = fs
-  .readFileSync(path.join(__dirname, "data.txt"), "utf8")
+  .readFileSync(path.join(__dirname, "data.test.txt"), "utf8")
   .split("\r\n");
 
 const sumNumbersFromFirstAndLastDigits = (prev, curr) =>
